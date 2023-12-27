@@ -160,10 +160,10 @@ footer {
 }
 
 .hero-info-icons-container {
-  flex-direction: row;
-  width: 20%;
+  display: flex;
+  width: 18%;
   align-items: baseline;
-  padding-left: 12px;
+  padding-left: 70px;
   padding-top: 20px;
   justify-content: space-between;
 }
@@ -372,46 +372,3 @@ footer {
   justify-content: space-between;
 }
 
-@media only screen and (max-device-width: 450px) {
-
-  .content-container {
-    width: 96vw;
-    max-width: 96vw;
-  }
-
-  .barra-navegacao {
-    width: 100%;
-  }
-
-  .hero-info {
-    width: 100%;
-  }
-
-  .hero-info-image {
-    width: 202px;
-  }
-
-  .ability-cards-container {
-    row-gap: 36px;
-    grid-template-columns: auto;
-    margin-top: 12px;
-  }
-
-  .section-portfolio-grid {
-    row-gap: 36px;
-    grid-template-columns: auto;
-    margin-top: 24px;
-  }
-
-  .section-experiences-card {
-    width: 90vw;
-  }
-
-  .footer-content{
-    width: 100%;
-  }
-
-  
-
-  
-}

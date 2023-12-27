@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins&family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
+* {
+  text-decoration: none;
+}
 
 body {
   font-family: 'Opens Sans', sans-serif;
@@ -34,6 +37,10 @@ li {
   font-size: 20px;
   margin-bottom: 12px;
   font-weight: bold;
+}
+
+a{
+  color: #1e1e1e;
 }
 
 button {
@@ -144,9 +151,9 @@ footer {
 }
 
 .hero-info-image {
-  height: 594px;
-  width: 600px;
-  border-radius: 80px;
+  height: 100%;
+  width: 542px;
+  border-radius: 40px;
   border-color: #219653;
   border-width: 4px;
   border-style: solid;
@@ -154,7 +161,7 @@ footer {
 
 .hero-info-icons-container {
   flex-direction: row;
-  width: 50%;
+  width: 20%;
   align-items: baseline;
   padding-left: 12px;
   padding-top: 20px;
@@ -339,6 +346,7 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-bottom: 16px;
 }
 
 .section-contact-item-icon {

@@ -4,6 +4,7 @@
 <head>
   <title>Gustavo J</title>
   <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
 
 <body>
   <div class="root-container">
@@ -12,11 +13,11 @@
         <div class="barra-navegacao">
           <h2 class="titulo-navegacao">Gustavo Jean</h2>
           <div>
-            <a class="links-navegacao">Habilidades</a>
-            <a class="links-navegacao">Portfólio</a>
-            <a class="links-navegacao">Experiência</a>
+            <a onclick="onClickHabilidades('section-abilities')" class="links-navegacao">Habilidades</a>
+            <a onclick="onClickHabilidades('section-portfolio')" class="links-navegacao">Portfólio</a>
+            <a onclick="onClickHabilidades('section-experiences')" class="links-navegacao">Experiência</a>
           </div>
-          <button>CONTATO</button>
+          <button onclick="onClickHabilidades('section-contact')">CONTATO</button>
         </div>
         <div class="hero-info">
           <div>
@@ -24,7 +25,7 @@
             <p class="card">
               Programador com foco em desenvolvimento web e mobile.
             </p>
-            <button>ENTRAR EM CONTATO</button>
+            <button onclick="onClickHabilidades('section-contact')">ENTRAR EM CONTATO</button>
             <div class="hero-info-icons-container">
               <a>
                 <img class="hero-info-icons-img" src="icons/github.png">
@@ -39,7 +40,7 @@
           </div>
         </div>
       </section>
-      <section class="section-abilities">
+      <section class="section-abilities" id="section-abilities">
         <h2>Habilidades que</h2>
         <h2 class="h2-verde">domino.</h2>
         <div class="ability-cards-container">
@@ -91,7 +92,7 @@
           </div>
         </div>
       </section>
-      <section class="section-portfolio">
+      <section class="section-portfolio" id="section-portfolio">
         <h2>Portfólio</h2>
         <h2 class="h2-verde">de projetos</h2>
         <div class="section-portfolio-grid">
@@ -136,7 +137,7 @@
           </div>
         </div>
       </section>
-      <section class="section-experiences">
+      <section class="section-experiences" id="section-experiences">
         <h2>Experiência</h2>
         <h2 class="h2-verde">Profissionais.</h2>
         <div class="section-experiences-card">
@@ -156,7 +157,7 @@
           </div>
         </div>
       </section>
-      <section class="section-contact">
+      <section class="section-contact" id="section-contact">
         <h2>Como posso</h2>
         <h2 class="h2-verde">te ajudar ?</h2>
         <p>
@@ -166,7 +167,7 @@
           <img class="section-contact-item-icon"" src="" alt="">
         <p>email@exemplo.com</p>
         </div>
-        <div class="section-contact-item">
+        <div class=" section-contact-item">
           <img class="section-contact-item-icon"" src="" alt="">
         <p>(99) 9999-9999</p>
         </div>
@@ -174,18 +175,18 @@
     </div>
   </div>
   <footer>
-    <div class="footer-content">
-      <h2 class="titulo-navegacao">Gustavo Jean</h2>
-      <div class="footer-content-icons-container">
-        <a>
-          <img class="hero-info-icons-img" src="icons/github.png">
-        </a>
-        <a>
-          <img class="hero-info-icons-img" src="icons/linkedin.png">
-        </a>
-      </div>
-    </div>
-  </footer>
+    <div class=" footer-content">
+          <h2 class="titulo-navegacao">Gustavo Jean</h2>
+          <div class="footer-content-icons-container">
+            <a>
+              <img class="hero-info-icons-img" src="icons/github.png">
+            </a>
+            <a>
+              <img class="hero-info-icons-img" src="icons/linkedin.png">
+            </a>
+          </div>
+        </div>
+        </footer>
 </body>
 </head>
 

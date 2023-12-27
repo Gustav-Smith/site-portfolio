@@ -144,6 +144,7 @@ footer {
 }
 
 .hero-info-subtitle {
+  font-weight: bold;
   font-size: 20px;
   line-height: 28px;
   max-width: 62%;

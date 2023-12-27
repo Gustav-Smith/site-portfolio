@@ -1,0 +1,35 @@
+!
+Olá, este é o Bing. Eu posso te ajudar a verificar o seu código CSS e ver por que a section-portfolio-grid não está
+alinhada na horizontal.
+
+Pelo que eu entendi, você quer que os três cards fiquem na mesma linha, um ao lado do outro, certo? Se for isso, o
+problema está na sua marcação HTML. Você fechou a div da section-portfolio-grid antes de colocar o terceiro card, então
+ele ficou fora da grade. Para corrigir isso, você precisa mover o fechamento da div para depois do último card, assim:
+
+<section class=“section-portfolio”>
+  <h2>Portfólio</h2>
+  <h2 class=“h2-verde”>de projetos</h2>
+  <div class=“section-portfolio-grid”>
+    <div class=“section-portfolio-card”> <img class=“section-portfolio-img” src=“” alt=“”>
+      <h5>Supermarket List</h5>
+      <p class=“card”>Aplicação React com Express e MongoDB.</p>
+      <div class=“section-portfolio-card-links”> <a> <img class=“section-portfolio-card-icon-image” src=“” alt=“”> </a>
+        <a> <img class=“section-portfolio-card-icon-image” src=“” alt=“”> </a>
+      </div>
+    </div>
+    <div class=“section-portfolio-card”> <img class=“section-portfolio-img” src=“” alt=“”>
+      <h5>BookClub</h5>
+      <p class=“card”>Aplicação React com Express e Sequelize e AWS.</p>
+      <div class=“section-portfolio-card-links”> <a> <img class=“section-portfolio-card-icon-image” src=“” alt=“”> </a>
+        <a> <img class=“section-portfolio-card-icon-image” src=“” alt=“”> </a>
+      </div>
+    </div>
+    <div class=“section-portfolio-card”> <img class=“section-portfolio-img” src=“” alt=“”>
+      <h5>Supermarket List</h5>
+      <p class=“card”>Aplicação React com Express e MongoDB.</p>
+      <div class=“section-portfolio-card-links”> <a> <img class=“section-portfolio-card-icon-image” src=“” alt=“”> </a>
+        <a> <img class=“section-portfolio-card-icon-image” src=“” alt=“”> </a>
+      </div>
+    </div>
+  </div> <!-- Aqui é onde a div da section-portfolio-grid deve terminar -->
+</section>

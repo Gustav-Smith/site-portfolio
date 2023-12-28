@@ -368,7 +368,7 @@ footer {
 .footer-content-icons-container {
   display: flex;
   flex-direction: row;
-  width: 10%;
+  width: 15%;
   align-items: center;
   justify-content: space-between;
 }

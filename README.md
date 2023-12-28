@@ -7,6 +7,10 @@ The main goal is to create a website with my professional informations.
 
 <img src="https://github.com/Gustav-Smith/site-portfolio/blob/master/preview.png" height="350"/>
 
+## Live link:
+
+https://gustav-smith.github.io/site-portfolio/
+
 ## Main concepts applied
 
 - Felxbox
